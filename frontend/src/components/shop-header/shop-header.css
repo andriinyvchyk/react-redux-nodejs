@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+.header-top{
+}
+.header-top-info{
+    width: 100%;
+    height: 45px;
+}
+.header-top-info:before, .header-top-info:after {
+    content: '';
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-bottom: 1px solid #D9D9D9;
+}
+.header-top-info-box{
+    padding-top: 8px;
+}
+.header-top-info-span{
+    color: #5b5b5b;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0em;
+}
+.header-top-info-span-number{
+    color: #5b5b5b;
+    font-weight: bold;
+}
+.header-top-info-span-number:hover{
+    transition: all 1.2s;
+    cursor: pointer;
+    color: #fc79c4;
+}
+.header-top-info-shop, .header-top-info-login, .header-top-info-input{
+    padding: 8px 25px;
+    border-right: 1px solid #D9D9D9;
+    border-left: 1px solid #D9D9D9;
+}
+.header-top-info-login a{
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0em;
+    color: black;
+}
+.header-top-info-shop:hover, .header-top-info-login:hover{
+    cursor: pointer;
+    transition: all 0.2s;
+    border-right: 1px solid #D9D9D9;
+    border-bottom: 4px solid #FFB4B4;
+}
+.header-top-info-input input{
+    font-size: 14px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.badge-primary{
+    color: white;
+    background-color: #ffb4b4;
+}
+.header-top-navbar{
+    height: 77px;
+    padding-top: 17px;
+}
+.header-top-navbar-logo{
+    width: 12%;
+}
+.ul-nav li{
+    padding: 10px 30px;
+}
+.ul-nav li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0em;
+    color: black;
+}
+.ul-nav li a:hover{
+    transition: all 0.2s;
+    color: #FFB4B4;
+}
+.header-top-navbar-internet a i{
+    font-size: 16px;
+    color: #AEABAB;
+    padding: 14px 13px;
+}
+.header-top-navbar-internet a i:hover{
+    color: black;
+}
